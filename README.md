@@ -1,2 +1,4 @@
 # ChessPlusPlus
-A python based implementation of chess with constantly updating features.
+ Plan
+ * Backend: Django, Python
+ * Frontend: HTML, CSS, Javascript
