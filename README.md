@@ -10,4 +10,3 @@
 * Add a rating system
 * Add more game modes
 * Deploy to an external hosting site (currently on local host)
-* Convert backend from Python to C++
