@@ -5,9 +5,10 @@
 * Refactored code to link to board from home page.
 #### TO DO
 * Add piece functionality
-* Add legal moves and checkmate
+* Add legal moves and checkmate logic
 * Add Multiplayer functionality
 * Add User Accounts
 * Add a rating system
 * Add more game modes
+* Add AI bots options
 * Deploy to an external hosting site (currently on local host)
