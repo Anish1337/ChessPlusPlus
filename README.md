@@ -1,7 +1,9 @@
 #### Working Features
-* A baisc chessboard is now displayed!
-* Setup a basic Django framework (urls.py, admin superuser, css, javacsript) to be expanded
-  
+* Basic chessboard now displays!
+* Setup a basic Django framework (urls.py, admin superuser, css, javacsript).
+8/16/2024
+* Added basic home page with a nav bar.
+* Refactored code to link to board from home page.
 #### TO DO
 * Add piece functionality
 * Add legal moves and checkmate
