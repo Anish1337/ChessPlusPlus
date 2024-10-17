@@ -1,2 +1,3 @@
 # ChessPlusPLus
-C++ based chess website
+A C++ based chess website
+
