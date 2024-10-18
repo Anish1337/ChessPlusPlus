@@ -32,20 +32,15 @@ public:
     }
 
     void setupBoard() {
-
-        // TODO: Combine into one loop!
-
-        // pawns
-        for(int i=0; i<8; i++){
-            board[0][i]=ChessPiece(PAWN,WHITE);
-            board[1][i]=ChessPiece(PAWN,BLACK); 
-        }
-
-        // other pieces, cool trick
-        Pieces other[] = {ROOK, KNIGHT, BISHOP, QUEEN, KING, BISHOP, KNIGHT, ROOK}
-        for(int i=0; i<8; i++){
-          board[0][i]=ChessPiece(other[col],WHITE);
-          board[7][i]=ChessPiece(other[col],BLACK);
+        // could replace row index with vars for readability
+        Pieces other[] = {ROOK, KNIGHT, BISHOP, QUEEN, KING, BISHOP, KNIGHT, ROOK};
+        for(int i=0; i<8; ++i){ 
+          // pawns
+          board[1][i]=ChessPiece(PAWN,WHITE);
+          board[6][i]=ChessPiece(PAWN,BLACK); 
+          // other
+          board[0][i]=ChessPiece(other[i],WHITE);
+          board[7][i]=ChessPiece(other[i],BLACK);
         }
     }
 
