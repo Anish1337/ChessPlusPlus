@@ -3,15 +3,26 @@
 #include "ChessBoard.h" // Assuming you have a ChessBoard class
 
 bool isValidPawnMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol) {
-    // Implement pawn movement logic
 }
 
 bool isValidKnightMove(int startRow, int startCol, int endRow, int endCol) {
-    // Implement knight movement logic
 }
 
 bool isValidBishopMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol) {
-    // Implement bishop movement logic
+
+}
+
+bool isValidQueenMove(const ChessBoard &board, int startRow, int startCOl, int endRow, int endCol){
+
+
+}
+
+bool isValidKingMove(const ChessBoard &board, int startRow, int startCOl, int endRow, int endCol){
+
+}
+
+bool isValidRookMove(const ChessBoard &board, int startRow, int startCOl, int endRow, int endCol){
+
 }
 
 // TODO fillout these functions for all piece

@@ -7,7 +7,9 @@ class ChessBoard; // Forward declaration
 bool isValidPawnMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol);
 bool isValidKnightMove(int startRow, int startCol, int endRow, int endCol);
 bool isValidBishopMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol);
-//TODO add other pieces
+bool isValidKingMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol);
+bool isValidRookMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol);
+bool isValidQueenMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol);
 
 #endif // PIECE_MOVEMENT_H
 
