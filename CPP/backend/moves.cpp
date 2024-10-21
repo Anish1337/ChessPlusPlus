@@ -5,7 +5,7 @@
 bool isValidPawnMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol) {
 }
 
-bool isValidKnightMove(int startRow, int startCol, int endRow, int endCol) {
+bool isValidKnightMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol) {
 }
 
 bool isValidBishopMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol) {
