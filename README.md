@@ -1,5 +1,6 @@
 # ChessPlusPLus
-A C++ based chess website
+A C++ based chess website. 
+The goal of this project is to refresh C++ knowledge and learn basic frontend.
 
 ## Backend
 Includes header and cpp files for
