@@ -5,7 +5,7 @@ iconst pieces = {
     'Q': '♕',  // Queen
     'K': '♔',  // King
     'P': '♙',  // Pawn
-    'r': '♜',  // Black rook, etc...
+    'r': '♜',  // Black rook
 };
 
 function renderPiece(row, col, piece) {
