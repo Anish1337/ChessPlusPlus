@@ -3,6 +3,21 @@
 #include "ChessBoard.h" // Assuming you have a ChessBoard class
 
 bool isValidPawnMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol) {
+// forward
+if endRow-startRow==1 && startCol==endCol{
+
+  if(board.isEmpty()){
+    return true;
+    }
+}
+
+// 2-forward (start)
+
+// capture
+
+// enpassant
+
+return false
 }
 
 bool isValidKnightMove(const ChessBoard &board, int startRow, int startCol, int endRow, int endCol) {
