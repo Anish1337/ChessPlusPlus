@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <style>
+        #chessboard {
+            display: grid;
+            grid-template-columns: repeat(8, 50px);
+            grid-template-rows: repeat(8, 50px);
+            width: 400px;
+            height: 400px;
+        }
+
+        .square {
+            width: 50px;
+            height: 50px;
+        }
+
+        .black {
+            background-color: #769656;
+        }
+
+        .white {
+            background-color: #eeeed2;
+        }
+
+        .piece {
+            font-size: 40px;
+            text-align: center;
+            line-height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="chessboard"></div>
+
+    <script>
+        // Placeholder for dynamically generating the chessboard
+        const boardElement = document.getElementById("chessboard");
+
+        const board = [];
+        for (let row = 0; row < 8; row++) {
+            for (let col = 0; col < 8; col++) {
+                const square = document.createElement('div');
+                square.className = 'square';
+                square.classList.add((row + col) % 2 === 0 ? 'white' : 'black');
+                boardElement.appendChild(square);
+
+                board.push(square);  // Add square to board array for future manipulation
+            }
+        }
+
+        // Example: Placing a piece (king)
+        board[0].innerHTML = '<div class="piece">♔</div>';  // Add a white king
+    </script>
+</body>
+</html>
+
